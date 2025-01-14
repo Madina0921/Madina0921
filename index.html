@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<style>
+    .newPage1{
+        display: block;
+    }
+    .cartN{
+        display: block;
+    }
+    .none{
+        display: none;
+    }
+    .liPage{
+        background-color: #FF7E1B;
+    }
+    .card-item{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 10px;
+    }
+    .item-img{
+        width: 65px;
+        height: 65px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+    .pric{
+        display: flex;
+        gap: 2px;
+    }
+    .hide-count{
+        width: 22px;
+        height: 22px;
+        align-items: center;
+        padding-left: 5px;
+        color: aliceblue;
+        border-radius: 50%;
+        background-color: red;
+    }
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="aasc">
+                <svg viewBox="0 0 448 512">
+                    <path
+                        d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+                </svg>
+                <a href="/"><img src="./img/sneakers (1).svg" alt="logo"/></a>
+                <ul>
+                    <article class="li">
+                        <li id="lim1">Collections</li>
+                        <div class="rectangle1" id="circular1"></div>
+                    </article>
+                    <article class="li">
+                        <li id="lim2">Men</li>
+                        <div class="rectangle2" id="circular2"></div>
+                    </article>
+                    <article class="li">
+                        <li id="lim3">Women</li>
+                        <div class="rectangle3" id="circular3"></div>
+                    </article>
+                    <article class="li">
+                        <li id="lim4">About</li>
+                        <div class="rectangle4" id="circular4"></div>
+                    </article>
+                    <article class="li">
+                        <li id="lim5">Contact</li>
+                        <div class="rectangle5" id="circular5"></div>
+                    </article>
+                </ul>
+            </div>
+            <div class="as">
+                <article class="wert"  id="cart1">
+                    <p class="hide-count none">0</p>
+                    <svg viewBox="0 0 576 512">
+                        <path
+                            d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                    </svg>
+                </article>
+                <div class="cart" id="cart2">
+                    <article class="art">
+                        <p>
+                            Cart
+                        </p>
+                    </article>
+                    <article class="rectangle"></article>
+                    <div id="addtocart">
+                      
+                    </div>
+                </div>
+                <article class="sa">
+                    <img src="./img/human.png" alt=""/>
+                </article>
+            </div>
+        </nav>
+    </header>
+    <div class="newPage" id="newPage">
+        <div class="bck"></div>
+        <div class="nonePage">
+            <svg class="false" id="false" viewBox="0 0 384 512">
+                <path
+                    d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+            </svg>
+            <div class="mainPage">
+                <article class="left">
+                    <svg class="left1" viewBox="0 0 320 512">
+                        <path
+                            d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" />
+                    </svg>
+                </article>
+                <div class="sddswe">
+                    <img class="shoe1" src="./img/sneaker1.png" alt=""/>
+                </div>
+                <article class="right">
+                    <svg class="right1" viewBox="0 0 320 512">
+                        <path
+                        d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                    </svg>
+                </article>
+            </div>
+            <div class="asaas">
+                <article class="sd">
+                    <img class="shoe1" src="./img/sneaker1.png" alt="" />
+                </article>
+                <article class="sd">
+                    <img class="shoe1" src="./img/sneaker2.png" alt="" />
+                </article>
+                <article class="sd">
+                    <img class="shoe1" src="./img/sneaker3.png" alt="" />
+                </article>
+                <article class="sd">
+                    <img class="shoe1" src="./img/sneaker4.png" alt="" />
+                </article>
+            </div>
+        </div>
+    </div>
+    <main class="container">
+        <div class="page-1">
+            <div class="sda">
+                <div class="sddswe"  id="shoe1">
+                    <img class="shoe1" id="shoe11" src="./img/sneaker1.png" alt="" />
+                </div>
+                <div class="asaas">
+                    <article class="sd">
+                        <img class="shoe1" id="shoe1" src="./img/sneaker1.png" alt="" />
+                    </article>
+                    <article class="sd">
+                        <img class="shoe1" id="shoe1" src="./img/sneaker2.png" alt="" />
+                    </article>
+                    <article class="sd">
+                        <img class="shoe1" id="shoe1" src="./img/sneaker3.png" alt="" />
+                    </article>
+                    <article class="sd">
+                        <img class="shoe1" id="shoe1" src="./img/sneaker4.png" alt="" />
+                    </article>
+                </div>
+            </div>
+            <div class="ddss">
+                <p class="sdvsd">Sneaker Company</p>
+                <h3 class="sdvsdsdg" id="fall">Fall Limited Edition Sneakers</h3>
+                <p class="sdcds">
+                    These low-profile sneakers are your perfect casual wear companion.
+                    Featuring a durable rubber outer sole, they’ll withstand everything
+                    the weather can offer.
+                </p>
+                <div class="sdfsf">
+                    <div class="dcsdc">
+                        <article class="vddfdfv">
+                            <p class="fdvdf" id="price-old"><span class="bir" id="bir">125.00</span><span class="ikki" id="ikki">250.00</span></p>
+                            <article class="vdsdf" id="ellik">
+                                <p>50%</p>
+                            </article>
+                        </article>
+                        <p class="dfvdf" id="ikkiellik">$250.00</p>
+                    </div>
+                    <div class="vdfvdf">
+                        <article class="vdsdf" id="vaqt">
+                            <p id="minut">0</p>
+                        </article>
+                        <p>:</p>
+                        <article class="vdsdf" id="vaqt">
+                            <p id="soniya"></p>
+                        </article>
+                    </div>
+                </div>
+                <div class="vdfvdfs">
+                    <div class="vdfvdfa">
+                        <button class="btn1" id="minus">-</button>
+                        <span id="nol">0</span>
+                        <button class="btn1" id="plus">+</button>
+                    </div>
+                    <button class="btn" id="btncart">
+                        <svg viewBox="0 0 576 512">
+                            <path
+                                d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                        </svg>
+                        Add to cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
